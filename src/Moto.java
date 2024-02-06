@@ -1,2 +1,8 @@
-public class Moto {
-}
+public class Moto extends Automoveis {
+
+    public Moto() {
+
+
+        }
+     }
+
