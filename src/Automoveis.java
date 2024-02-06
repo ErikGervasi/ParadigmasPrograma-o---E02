@@ -6,7 +6,7 @@ public class Automoveis {
     private String modelo;
     private String potencia;
 
-    public void emitirSom(){
+    public void emitirSom() {
         System.out.println("Vruuuuuum");
     }
 
@@ -67,16 +67,16 @@ public class Automoveis {
         carro1.setPotencia("890 CV");
 
 
-        System.out.println("o modelo da moto 1 é a " + moto1.getModelo() + " da " + moto1.getMarca() + " com " + moto1.getPotencia() + " de potência.");
+        System.out.println("\no modelo da moto 1 é a " + moto1.getModelo() + " da " + moto1.getMarca() + " com " + moto1.getPotencia() + " de potência.");
         moto1.emitirSom();
 
-        System.out.println("o modelo do caminhão 1 é o " + caminhao1.getModelo() + " da " + caminhao1.getMarca() + " com " + caminhao1.getEixos() + " eixos e " + caminhao1.getPotencia() + " de potência.");
+        System.out.println("\no modelo do caminhão 1 é o " + caminhao1.getModelo() + " da " + caminhao1.getMarca() + " com " + caminhao1.getEixos() + " eixos e " + caminhao1.getPotencia() + " de potência.");
         caminhao1.emitirSom();
 
-        System.out.println("o modelo do onibus 1 é o " + onibus1.getModelo() + " da " + onibus1.getMarca() + " com capacidade para " + onibus1.getQtdPassageiros() + " passageiros e com potencia de " + onibus1.getPotencia() + ".");
+        System.out.println("\no modelo do onibus 1 é o " + onibus1.getModelo() + " da " + onibus1.getMarca() + " com capacidade para " + onibus1.getQtdPassageiros() + " passageiros e com potencia de " + onibus1.getPotencia() + ".");
         onibus1.emitirSom();
 
-        System.out.println("o modelo do carro é " + carro1.getModelo() + " da " + carro1.getMarca() + " com " + carro1.getPotencia() + " de potência.");
+        System.out.println("\no modelo do carro é " + carro1.getModelo() + " da " + carro1.getMarca() + " com " + carro1.getPotencia() + " de potência.");
         carro1.emitirSom();
 
     }
