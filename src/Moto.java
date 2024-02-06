@@ -1,8 +1,7 @@
 public class Moto extends Automoveis {
-
-    public Moto() {
-
-
-        }
+    @Override
+    public void emitirSom(){
+        System.out.println("RanDanDanDanDan");
+    }
      }
 
